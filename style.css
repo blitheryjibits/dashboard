@@ -199,11 +199,27 @@ div.article {
 }
 
 .note {
-    display: flex;
-    padding: 0.5rem 0 0 0;
+    display: flexbox;
+    padding: 0.5rem;
     border-bottom: 1px solid black;
 }
 
-.trending {
-    
+.note h4 {
+    padding-bottom: 0.5rem;
 }
+
+#profile1 {
+    border: 1px solid black;
+    height: 100%;
+}
+.card {
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.card-content {
+    padding: 0 1rem 0 0;
+}
+
